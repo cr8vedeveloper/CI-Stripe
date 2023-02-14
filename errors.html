@@ -1,0 +1,229 @@
+"{ 
+   \"title\": \"Stripe\\\\Exception\\\\PermissionException\", 
+   \"type\": \"Stripe\\\\Exception\\\\PermissionException\", 
+   \"code\": 500, 
+   \"message\": \"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\", 
+   \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\Exception\\\\ApiErrorException.php\", 
+   \"line\": 38, 
+   \"trace\": [ 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\ApiRequestor.php\", 
+           \"line\": 198, 
+           \"function\": \"factory\", 
+           \"class\": \"Stripe\\\\Exception\\\\ApiErrorException\", 
+           \"type\": \"::\", 
+           \"args\": [ 
+               \"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\", 
+               403, 
+               \"{\ 
+ \\\"error\\\": {\ 
+   \\\"message\\\": \\\"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\\\",\ 
+   \\\"type\\\": \\\"invalid_request_error\\\"\ 
+ }\\n}\\n\", 
+               { 
+                   \"error\": { 
+                       \"message\": \"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\", 
+                       \"type\": \"invalid_request_error\" 
+                   } 
+               }, 
+               {}, 
+               null 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\ApiRequestor.php\", 
+           \"line\": 151, 
+           \"function\": \"_specificAPIError\", 
+           \"class\": \"Stripe\\\\ApiRequestor\", 
+           \"type\": \"::\", 
+           \"args\": [ 
+               \"{\ 
+ \\\"error\\\": {\ 
+   \\\"message\\\": \\\"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\\\",\ 
+   \\\"type\\\": \\\"invalid_request_error\\\"\ 
+ }\\n}\\n\", 
+               403, 
+               {}, 
+               { 
+                   \"error\": { 
+                       \"message\": \"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\", 
+                       \"type\": \"invalid_request_error\" 
+                   } 
+               }, 
+               { 
+                   \"message\": \"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\", 
+                   \"type\": \"invalid_request_error\" 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\ApiRequestor.php\", 
+           \"line\": 489, 
+           \"function\": \"handleErrorResponse\", 
+           \"class\": \"Stripe\\\\ApiRequestor\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               \"{\ 
+ \\\"error\\\": {\ 
+   \\\"message\\\": \\\"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\\\",\ 
+   \\\"type\\\": \\\"invalid_request_error\\\"\ 
+ }\\n}\\n\", 
+               403, 
+               {}, 
+               { 
+                   \"error\": { 
+                       \"message\": \"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\", 
+                       \"type\": \"invalid_request_error\" 
+                   } 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\ApiRequestor.php\", 
+           \"line\": 120, 
+           \"function\": \"_interpretResponse\", 
+           \"class\": \"Stripe\\\\ApiRequestor\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               \"{\ 
+ \\\"error\\\": {\ 
+   \\\"message\\\": \\\"Only Stripe Connect platforms can work with other accounts. If you specified a client_id parameter, make sure it's correct. If you need to setup a Stripe Connect platform, you can do so at https://dashboard.stripe.com/account/applications/settings.\\\",\ 
+   \\\"type\\\": \\\"invalid_request_error\\\"\ 
+ }\\n}\\n\", 
+               403, 
+               {} 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\BaseStripeClient.php\", 
+           \"line\": 134, 
+           \"function\": \"request\", 
+           \"class\": \"Stripe\\\\ApiRequestor\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               \"post\", 
+               \"/v1/charges/ch_1IrHgDKMyPVC6s6sdMPoy7mP/capture\", 
+               [], 
+               { 
+                   \"Stripe-Account\": \"acct_1IrHNBKMyPVC6s6s\", 
+                   \"Stripe-Version\": null 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\Service\\\\AbstractService.php\", 
+           \"line\": 59, 
+           \"function\": \"request\", 
+           \"class\": \"Stripe\\\\BaseStripeClient\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               \"post\", 
+               \"/v1/charges/ch_1IrHgDKMyPVC6s6sdMPoy7mP/capture\", 
+               [], 
+               { 
+                   \"headers\": { 
+                       \"Stripe-Account\": \"acct_1IrHNBKMyPVC6s6s\", 
+                       \"Stripe-Version\": null 
+                   }, 
+                   \"apiKey\": null, 
+                   \"apiBase\": null 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\vendor\\\\stripe\\\\stripe-php\\\\lib\\\\Service\\\\ChargeService.php\", 
+           \"line\": 44, 
+           \"function\": \"request\", 
+           \"class\": \"Stripe\\\\Service\\\\AbstractService\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               \"post\", 
+               \"/v1/charges/ch_1IrHgDKMyPVC6s6sdMPoy7mP/capture\", 
+               [], 
+               { 
+                   \"stripe_account\": \"acct_1IrHNBKMyPVC6s6s\" 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\app\\\\Controllers\\\\StripeController.php\", 
+           \"line\": 32, 
+           \"function\": \"capture\", 
+           \"class\": \"Stripe\\\\Service\\\\ChargeService\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               \"ch_1IrHgDKMyPVC6s6sdMPoy7mP\", 
+               [], 
+               { 
+                   \"stripe_account\": \"acct_1IrHNBKMyPVC6s6s\" 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\system\\\\CodeIgniter.php\", 
+           \"line\": 918, 
+           \"function\": \"stripePost\", 
+           \"class\": \"App\\\\Controllers\\\\StripeController\", 
+           \"type\": \"->\", 
+           \"args\": [] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\system\\\\CodeIgniter.php\", 
+           \"line\": 404, 
+           \"function\": \"runController\", 
+           \"class\": \"CodeIgniter\\\\CodeIgniter\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               { 
+                   \"session\": {} 
+               } 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\system\\\\CodeIgniter.php\", 
+           \"line\": 312, 
+           \"function\": \"handleRequest\", 
+           \"class\": \"CodeIgniter\\\\CodeIgniter\", 
+           \"type\": \"->\", 
+           \"args\": [ 
+               null, 
+               { 
+                   \"handler\": \"file\", 
+                   \"backupHandler\": \"dummy\", 
+                   \"storePath\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\writable\\\\cache/\", 
+                   \"cacheQueryString\": false, 
+                   \"prefix\": \"\", 
+                   \"memcached\": { 
+                       \"host\": \"127.0.0.1\", 
+                       \"port\": 11211, 
+                       \"weight\": 1, 
+                       \"raw\": false 
+                   }, 
+                   \"redis\": { 
+                       \"host\": \"127.0.0.1\", 
+                       \"password\": null, 
+                       \"port\": 6379, 
+                       \"timeout\": 0, 
+                       \"database\": 0 
+                   }, 
+                   \"validHandlers\": { 
+                       \"dummy\": \"CodeIgniter\\\\Cache\\\\Handlers\\\\DummyHandler\", 
+                       \"file\": \"CodeIgniter\\\\Cache\\\\Handlers\\\\FileHandler\", 
+                       \"memcached\": \"CodeIgniter\\\\Cache\\\\Handlers\\\\MemcachedHandler\", 
+                       \"predis\": \"CodeIgniter\\\\Cache\\\\Handlers\\\\PredisHandler\", 
+                       \"redis\": \"CodeIgniter\\\\Cache\\\\Handlers\\\\RedisHandler\", 
+                       \"wincache\": \"CodeIgniter\\\\Cache\\\\Handlers\\\\WincacheHandler\" 
+                   } 
+               }, 
+               false 
+           ] 
+       }, 
+       { 
+           \"file\": \"E:\\\\LService\\\\Xampp\\\\htdocs\\\\CI\\\\index.php\", 
+           \"line\": 45, 
+           \"function\": \"run\", 
+           \"class\": \"CodeIgniter\\\\CodeIgniter\", 
+           \"type\": \"->\", 
+           \"args\": [] 
+       } 
+   ]\n}"
